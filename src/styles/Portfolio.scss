@@ -1,0 +1,75 @@
+.portfo{
+    
+    .presentation{
+        background-color: black;
+        // width: 100%;
+        // height: 40%;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        color: #FFFF;
+
+        p{
+            width: 40%;
+            height: 60%;
+            margin-top: 7%;
+            
+            
+           
+            .salut{
+                justify-content: center;
+                font-size: 400%;
+                
+            }
+            .descript{
+                justify-content: center;
+                font-size: 200%;
+                width: 70%;
+                height: 50%;
+                margin-left: 20%;
+                margin-bottom: 8%;
+               
+            }
+
+            .ico_taf{
+                justify-content: center;
+                .lien_ico{
+                   
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                    margin-left: 10px;
+
+                }
+            }
+        }
+        
+        .img_my{
+            width: 30%;
+            height: 40%;
+            margin-left: 7%;
+            margin-right: 5%;
+        }
+    }
+
+    .apprentissage{
+        justify-content: center;
+        color: rgb(3, 3, 3);
+        
+        h1{
+            padding-top: -50px;
+        }
+        .cardss{
+            
+            flex-wrap: wrap;
+            display: flex;
+            // margin-left: 7.5%;
+            margin-top: 3%;
+        }
+       
+        
+       
+    }
+    
+}

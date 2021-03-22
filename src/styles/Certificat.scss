@@ -1,0 +1,33 @@
+.proCertifi{
+    margin-top: 5em;
+    .certificat{
+        justify-content: center;
+        display: flex;
+        min-width: 100%;
+        flex-wrap: wrap;
+        .comp{
+            margin-top: 2%;
+            width: 45% ;
+            height: 45%;
+            .designCard{
+                width: 100% ;
+                height:100%;
+                justify-content: center;
+                border-width: 2px;
+                border-color: rgba(253, 253, 253, 0);
+               
+                .igmCard{
+                    justify-content: end;
+                   
+                    width: 100% ;
+                    height:100% ;
+    
+                    .text{
+                        font-size: 10px;
+                    }
+                }
+    
+            }
+        }
+    }
+}
